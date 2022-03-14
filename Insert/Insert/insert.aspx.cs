@@ -21,6 +21,7 @@ namespace Insert
             string sqlstr = "data source=SAIKAT-SANIL\\SQL2019;initial catalog=B15;integrated security=true;";
             SqlConnection conn = new SqlConnection(sqlstr);
             conn.Open();
+
             string query = "INSERT INTO NewForm VALUES('" + Name.Text + "','" + Phone.Text + "','" + genderBtn.SelectedValue + "')";
             SqlCommand comd = new SqlCommand(query, conn);
             int i = comd.ExecuteNonQuery();
