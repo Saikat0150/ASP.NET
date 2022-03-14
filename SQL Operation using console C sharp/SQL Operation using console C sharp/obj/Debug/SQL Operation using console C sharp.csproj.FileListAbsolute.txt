@@ -1,0 +1,7 @@
+C:\Users\saika\source\repos\ASP.NET\SQL Operation using console C sharp\SQL Operation using console C sharp\bin\Debug\SQL Operation using console C sharp.exe.config
+C:\Users\saika\source\repos\ASP.NET\SQL Operation using console C sharp\SQL Operation using console C sharp\bin\Debug\SQL Operation using console C sharp.exe
+C:\Users\saika\source\repos\ASP.NET\SQL Operation using console C sharp\SQL Operation using console C sharp\bin\Debug\SQL Operation using console C sharp.pdb
+C:\Users\saika\source\repos\ASP.NET\SQL Operation using console C sharp\SQL Operation using console C sharp\obj\Debug\SQL Operation using console C sharp.csproj.AssemblyReference.cache
+C:\Users\saika\source\repos\ASP.NET\SQL Operation using console C sharp\SQL Operation using console C sharp\obj\Debug\SQL Operation using console C sharp.csproj.CoreCompileInputs.cache
+C:\Users\saika\source\repos\ASP.NET\SQL Operation using console C sharp\SQL Operation using console C sharp\obj\Debug\SQL Operation using console C sharp.exe
+C:\Users\saika\source\repos\ASP.NET\SQL Operation using console C sharp\SQL Operation using console C sharp\obj\Debug\SQL Operation using console C sharp.pdb
