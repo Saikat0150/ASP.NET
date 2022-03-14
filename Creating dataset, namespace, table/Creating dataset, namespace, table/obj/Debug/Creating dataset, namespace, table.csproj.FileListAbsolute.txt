@@ -1,0 +1,7 @@
+C:\Users\saika\source\repos\ASP.NET\Creating dataset, namespace, table\Creating dataset, namespace, table\bin\Debug\Creating dataset, namespace, table.exe.config
+C:\Users\saika\source\repos\ASP.NET\Creating dataset, namespace, table\Creating dataset, namespace, table\bin\Debug\Creating dataset, namespace, table.exe
+C:\Users\saika\source\repos\ASP.NET\Creating dataset, namespace, table\Creating dataset, namespace, table\bin\Debug\Creating dataset, namespace, table.pdb
+C:\Users\saika\source\repos\ASP.NET\Creating dataset, namespace, table\Creating dataset, namespace, table\obj\Debug\Creating dataset, namespace, table.csproj.AssemblyReference.cache
+C:\Users\saika\source\repos\ASP.NET\Creating dataset, namespace, table\Creating dataset, namespace, table\obj\Debug\Creating dataset, namespace, table.csproj.CoreCompileInputs.cache
+C:\Users\saika\source\repos\ASP.NET\Creating dataset, namespace, table\Creating dataset, namespace, table\obj\Debug\Creating dataset, namespace, table.exe
+C:\Users\saika\source\repos\ASP.NET\Creating dataset, namespace, table\Creating dataset, namespace, table\obj\Debug\Creating dataset, namespace, table.pdb
