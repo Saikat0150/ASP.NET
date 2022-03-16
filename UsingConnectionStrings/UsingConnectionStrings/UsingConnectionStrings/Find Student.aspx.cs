@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data.SqlClient;
+using System.Data;
 using System.Configuration;
 namespace UsingConnectionStrings
 {
@@ -18,25 +19,25 @@ namespace UsingConnectionStrings
         protected void search_Click(object sender, EventArgs e)
         {
             string source = ConfigurationManager.ConnectionStrings["constr"].ConnectionString;
-            //string source = "data source=DESKTOP-NARUTO\\SQL2019;initial catalog=Training2;integrated security=true;";
             SqlConnection conn = new SqlConnection(source);
             conn.Open();
-            SqlCommand cmd = new SqlCommand("Select * from Employee2 Where name = '" + name.Text + "'", conn);
-
-            SqlDataReader reader = cmd.ExecuteReader();
-            if (reader.Read() == true)
+            string query = "SELECT * FROM form WHERE Age<'" + name.Text + "'";
+            SqlCommand cmd = new SqlCommand(query, conn);
+            SqlDataAdapter sda = new SqlDataAdapter(query, conn);
+            DataSet ds = new DataSet();
+            sda.Fill(ds);
+            if (ds.Tables[0].Rows.Count > 0)
             {
-                reader.Close();
-                SqlDataReader rd = cmd.ExecuteReader();
-                Goutput.DataSource = rd;
+                Goutput.DataSource = ds;
                 Goutput.DataBind();
-                result.Text = "Search Successful";
+                lbl.Text = "Search Successfull";
             }
             else
             {
-                result.Text = "No Such Name Exist in Database";
+                Goutput.DataSource = ds;
+                Goutput.DataBind();
+                lbl.Text = "No such Name found";
             }
-            conn.Close();
         }
     }
 }

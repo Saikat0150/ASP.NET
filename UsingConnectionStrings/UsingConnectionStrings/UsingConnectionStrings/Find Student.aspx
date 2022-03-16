@@ -14,13 +14,13 @@
                <asp:TextBox ID="name" runat="server" Width="395px"></asp:TextBox>
                </td>
                <td>
-                   <asp:Button ID="search" runat="server" Text="Search" OnClick="search_Click" Width="148px" />
+                   <asp:Button ID="search" runat="server" Text="Search" Width="148px" OnClick="search_Click" />
                </td>
            </tr>
            
            <tr>
                <td>
-                   <asp:Label ID="result" runat="server" Text=""></asp:Label>
+                   <asp:Label ID="lbl" runat="server" Text=""></asp:Label>
                </td>
            </tr>
            <tr>
