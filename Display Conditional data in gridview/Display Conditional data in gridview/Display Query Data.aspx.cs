@@ -21,12 +21,23 @@ namespace Display_Conditional_data_in_gridview
             string str = "data source=SAIKAT-SANIL\\SQL2019;initial catalog=B15;integrated security=true";
             SqlConnection conn = new SqlConnection(str);
             conn.Open();
-            string query = "SELECT * FROM form WHERE Name='" + Name.Text+"'";
+            string query = "SELECT * FROM form WHERE Age<'" + Age.Text+"'";
             SqlCommand cmd = new SqlCommand(query, conn);
-            SqlDataReader dr;
-            dr = cmd.ExecuteReader();
-            GridView1.DataSource = dr;
-            GridView1.DataBind();
+            SqlDataAdapter sda = new SqlDataAdapter(query, conn);
+            DataSet ds = new DataSet();
+            sda.Fill(ds);
+            if (ds.Tables[0].Rows.Count > 0)
+            {
+                GridView1.DataSource = ds;
+                GridView1.DataBind();
+                lbl.Text = "Search Successfull";
+            }
+            else
+            {
+                GridView1.DataSource = ds;
+                GridView1.DataBind();
+                lbl.Text = "No such Name found";
+            }
         }
     }
 }

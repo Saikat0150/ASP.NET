@@ -10,9 +10,9 @@
     <form id="form1" runat="server">
         <table align="center">
             <tr>
-                <td>Name</td>
+                <td>Age</td>
                 <td>
-                    <asp:TextBox ID="Name" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="Age" runat="server"></asp:TextBox>
 
                 </td>
                 <td>
@@ -22,6 +22,11 @@
             </tr>
             <tr>
                 <td colspan="2"><asp:GridView ID="GridView1" runat="server"></asp:GridView></td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Label ID="lbl" runat="server" Text=""></asp:Label>
+                </td>
             </tr>
          </table>
     </form>
