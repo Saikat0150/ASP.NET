@@ -1,0 +1,10 @@
+C:\Users\saika\source\repos\ASP.NET\Database First Approch EntityFramwwork\Database First Approch EntityFramwwork\bin\Debug\Database First Approch EntityFramwwork.exe.config
+C:\Users\saika\source\repos\ASP.NET\Database First Approch EntityFramwwork\Database First Approch EntityFramwwork\bin\Debug\Database First Approch EntityFramwwork.exe
+C:\Users\saika\source\repos\ASP.NET\Database First Approch EntityFramwwork\Database First Approch EntityFramwwork\bin\Debug\Database First Approch EntityFramwwork.pdb
+C:\Users\saika\source\repos\ASP.NET\Database First Approch EntityFramwwork\Database First Approch EntityFramwwork\bin\Debug\EntityFramework.dll
+C:\Users\saika\source\repos\ASP.NET\Database First Approch EntityFramwwork\Database First Approch EntityFramwwork\bin\Debug\EntityFramework.xml
+C:\Users\saika\source\repos\ASP.NET\Database First Approch EntityFramwwork\Database First Approch EntityFramwwork\obj\Debug\Database First Approch EntityFramwwork.csproj.AssemblyReference.cache
+C:\Users\saika\source\repos\ASP.NET\Database First Approch EntityFramwwork\Database First Approch EntityFramwwork\obj\Debug\Database First Approch EntityFramwwork.csproj.CoreCompileInputs.cache
+C:\Users\saika\source\repos\ASP.NET\Database First Approch EntityFramwwork\Database First Approch EntityFramwwork\obj\Debug\Database First Approch EntityFramwwork.csproj.CopyComplete
+C:\Users\saika\source\repos\ASP.NET\Database First Approch EntityFramwwork\Database First Approch EntityFramwwork\obj\Debug\Database First Approch EntityFramwwork.exe
+C:\Users\saika\source\repos\ASP.NET\Database First Approch EntityFramwwork\Database First Approch EntityFramwwork\obj\Debug\Database First Approch EntityFramwwork.pdb
