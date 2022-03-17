@@ -19,7 +19,7 @@
             <tr>
                 <td>Mobile No: </td>
                 <td>
-                    <asp:TextBox ID="Mobile" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="Mobile" runat="server" TextMode="Number"></asp:TextBox>
                     <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ErrorMessage="Enter valid Mobile number" ControlToValidate="Mobile" ValidationExpression="^[6-9]\d{9}$" Display="Dynamic"></asp:RegularExpressionValidator>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Enter the mobile number" ControlToValidate="Mobile" Display="Dynamic"></asp:RequiredFieldValidator>
                 </td>
@@ -27,7 +27,7 @@
             <tr>
                 <td>Age</td>
                 <td>
-                    <asp:TextBox ID="Age" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="Age" runat="server" TextMode="Number"></asp:TextBox>
                     <asp:RangeValidator ID="RangeValidator1" runat="server" ErrorMessage="Enter Age between 18 to 50" ControlToValidate="Age" MaximumValue="50" MinimumValue="18"></asp:RangeValidator>
                 </td>
             </tr>
@@ -44,7 +44,7 @@
             <tr>
                 <td>Email</td>
                 <td>
-                    <asp:TextBox ID="Email" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="Email" runat="server" TextMode="Email"></asp:TextBox>
                     <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="Enter valid Email" ControlToValidate="Email" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
                 </td>
             </tr>
