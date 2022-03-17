@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cancel delete update edit", "cancel delete update edit\cancel delete update edit.csproj", "{4CB30C05-3209-4C3A-AEF0-EBD5E09761DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CB30C05-3209-4C3A-AEF0-EBD5E09761DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CB30C05-3209-4C3A-AEF0-EBD5E09761DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CB30C05-3209-4C3A-AEF0-EBD5E09761DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CB30C05-3209-4C3A-AEF0-EBD5E09761DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86713D8D-12E8-488E-9BD4-42A134FAA8DB}
+	EndGlobalSection
+EndGlobal
