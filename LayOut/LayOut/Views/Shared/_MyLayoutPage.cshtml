@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @RenderSection("head", false)
+</head>
+
+<body>
+    <div>
+        <a href="@Url.Action("Index","Home")" class="format1">Home</a> |
+        <a href="@Url.Action("Index","AboutUs")" class="format2">About Us</a> |
+        <a href="@Url.Action("Index","News")" class="format3">News</a>
+        <br />
+        <br />
+        @RenderBody()
+        <br />
+        <br />
+        Copyright 2022
+    </div>
+</body>
+</html>
