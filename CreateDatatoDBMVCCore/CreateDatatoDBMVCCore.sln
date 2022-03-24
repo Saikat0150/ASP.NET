@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateDatatoDBMVCCore", "CreateDatatoDBMVCCore\CreateDatatoDBMVCCore.csproj", "{1AD70E69-8D6A-4397-948F-4E891CC0AEC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AD70E69-8D6A-4397-948F-4E891CC0AEC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AD70E69-8D6A-4397-948F-4E891CC0AEC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AD70E69-8D6A-4397-948F-4E891CC0AEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AD70E69-8D6A-4397-948F-4E891CC0AEC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36FBDE6A-D74E-490C-B67E-D7A91A544ADC}
+	EndGlobalSection
+EndGlobal
