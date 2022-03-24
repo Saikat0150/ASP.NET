@@ -112,3 +112,7 @@ C:\Users\saika\source\repos\ASP.NET\LoginSessioninASPCore\LoginSessioninASPCore\
 C:\Users\saika\source\repos\ASP.NET\LoginSessioninASPCore\LoginSessioninASPCore\obj\Debug\netcoreapp3.1\LoginSessioninASPCore.csproj.AssemblyReference.cache
 C:\Users\saika\source\repos\ASP.NET\LoginSessioninASPCore\LoginSessioninASPCore\obj\Debug\netcoreapp3.1\Razor\Views\Account\Index.cshtml.g.cs
 C:\Users\saika\source\repos\ASP.NET\LoginSessioninASPCore\LoginSessioninASPCore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\saika\source\repos\ASP.NET\LoginSessioninASPCore\LoginSessioninASPCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_MyLayoutPage.cshtml.g.cs
+C:\Users\saika\source\repos\ASP.NET\LoginSessioninASPCore\LoginSessioninASPCore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\saika\source\repos\ASP.NET\LoginSessioninASPCore\LoginSessioninASPCore\obj\Debug\netcoreapp3.1\Razor\Views\AboutUs\Index.cshtml.g.cs
+C:\Users\saika\source\repos\ASP.NET\LoginSessioninASPCore\LoginSessioninASPCore\obj\Debug\netcoreapp3.1\Razor\Views\News\Index.cshtml.g.cs
